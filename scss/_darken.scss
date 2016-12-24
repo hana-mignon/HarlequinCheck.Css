@@ -1,0 +1,13 @@
+/*
+  * "HarlequinCheck.Css" -Version 1.0.0-beta.1~- Css.
+  * Dark Colors scss file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/  
+
+.girly-harlequincheck{
+  background-color: darken($bg-color, $bg-color-adjust); background-image:linear-gradient($bg-transform-first, rgba($base-color, $bg-transparent-first) $amount, rgba($base-color, $bg-transparent-second) $amount),linear-gradient($bg-transform-last, rgba($base-color, $bg-transparent-first)  $amount, rgba($base-color, $bg-transparent-second) $amount);
+  background-size:$bg-size $bg-size;
+  
+} 

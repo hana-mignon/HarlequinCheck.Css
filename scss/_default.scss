@@ -1,0 +1,12 @@
+/*
+  * "HarlequinCheck.Css" -Version 1.0.0-beta.1~- Css.
+  * Default Colors scss file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/ 
+
+.harlequin-check{
+  background-color: $bg-color; background-image:linear-gradient($bg-transform-first, rgba($base-color, $bg-transparent-first) $amount, rgba($base-color, $bg-transparent-second) $amount),linear-gradient($bg-transform-last, rgba($base-color, $bg-transparent-first)  $amount, rgba($base-color, $bg-transparent-second) $amount);
+  background-size:$bg-size $bg-size;  
+} 
