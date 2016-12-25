@@ -6,8 +6,7 @@
   * https://github.com/hana-mignon.
 */  
 
-.girly-harlequincheck{
+.harlequincheck-darken{
   background-color: darken($bg-color, $bg-color-adjust); background-image:linear-gradient($bg-transform-first, rgba($base-color, $bg-transparent-first) $amount, rgba($base-color, $bg-transparent-second) $amount),linear-gradient($bg-transform-last, rgba($base-color, $bg-transparent-first)  $amount, rgba($base-color, $bg-transparent-second) $amount);
   background-size:$bg-size $bg-size;
-  
 } 
